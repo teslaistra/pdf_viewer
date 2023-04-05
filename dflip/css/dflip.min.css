@@ -1683,3 +1683,15 @@ body.df-lightbox-open {
 .df-custom-fullscreen.df-fullscreen[backgroundcolor='transparent'] {
     background: gray !important
 }
+
+.watermark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(https://www.digiflip.com/wp-content/uploads/2019/01/watermark.png) no-repeat center center;
+    background-size: 100% 100%;
+    z-index: 999;
+    opacity: 0.5;
+}
