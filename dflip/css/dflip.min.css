@@ -1707,3 +1707,7 @@ body.df-lightbox-open {
     text-decoration: none;
     flex-direction: row;
 }
+
+.watermark_logo{
+    width: 100px;
+}
