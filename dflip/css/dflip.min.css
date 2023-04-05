@@ -1686,7 +1686,7 @@ body.df-lightbox-open {
 
 .watermark{
     position: absolute;
-    bottom: 10px;
+    top: 10px;
     left: 10px;
     width: 100%;
     /* background: url("../../assets/logo.svg") no-repeat center center; */
@@ -1694,12 +1694,10 @@ body.df-lightbox-open {
     z-index: 999;
     opacity: 0.5;
     display: flex;
-    justify-content: center;
     align-items: center;
-    font-size: 20px;
+    font-size: 1em;
     font-weight: bold;
     color: #fff;
-    text-transform: uppercase;
     letter-spacing: 2px;
     text-align: center;
     line-height: 1.2;
@@ -1710,4 +1708,5 @@ body.df-lightbox-open {
 
 .watermark_logo{
     width: 100px;
+    margin-left: 10px;
 }
